@@ -1,0 +1,70 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="Relogio em tempo real para você que precisa ver as horas exatas de forma online.">
+
+    <link rel="stylesheet" href="css/style.css?v0.5.1">
+
+    <!--FONTES PERSONALIZADAS-->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@400;500;700;900&display=swap" rel="stylesheet">
+    <!---->
+
+    <title>Relogio em tempo real</title>
+</head>
+<body>
+    <header>
+        <div class="container">
+            <div>
+                <a href="https://abismodev.com/"><img class="logo" src="assets/logo.svg" alt="essa é uma imagem do logo abismodev" title="LOGO ABISMODEV"></a>
+            </div>
+        </div>
+    </header>
+    <main>
+        <div class="container-relogio">
+            <section>
+                <div class="display-box">
+                    <h1 class="titulo">Relógio Digital</h1>
+                    <div class="data-box">
+                        <h2 id="inserirData"></h2>
+                    </div>
+                    <div class="relogio">                       
+                        <div class="relogio-celula">
+                            <div class="relogio-indicador">
+                                <p>Horas</p><p>Minutos</p><p>Segundos</p>
+                            </div>
+                            <span id="relogio"></span>
+                        </div>
+                    </div>
+                    <div class="msg">
+                        <span id="msg"></span>
+                    </div>
+                </div>
+            </section>
+        </div>
+    </main>
+
+    <footer>
+        <div class="container">
+            <div class="link-rodape">
+                <nav class="nav-rodape">
+                    <ul>
+                        <li><a href="https://github.com/AbismoDev" target="_blank">Github</a></li>
+                        <li><a href="https://abismodev.com/" target="_blank">Portifólio</a></li>
+                    </ul>
+                </nav>
+            </div>
+            <div class="creditos">
+                <p>Site desenvolvido com <img class="icon-coracao" src="assets/icon-coracao.svg" alt="amor" title="Amor"> por <a href="https://www.instagram.com/abismodev_" target="_blank">AbismoDev</a>.</p>
+            </div>
+        </div>
+    </footer>
+
+    <script type="module" src="js/index.js"></script>
+
+</body>
+</html>
