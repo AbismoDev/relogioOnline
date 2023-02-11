@@ -1,0 +1,179 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    font-family: 'Montserrat', sans-serif;
+}
+
+header{
+    padding: 0  2%;
+}
+
+header > .container{
+    padding: 20px 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+section{
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+
+.container, .container-clock{
+    max-width: 1024px;
+    width: 100%;
+    margin: 0 auto;
+}
+
+.container-relogio{
+    height: calc(100vh - 160px);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.logo{
+    cursor: pointer;
+    object-fit: contain;
+    transition: .5s;
+}
+
+.display-box{
+    max-width: 400px;
+    width: 100%;
+    text-align: center;
+}
+
+.titulo{
+    font-size: 38px;
+    text-transform: uppercase;
+}
+
+.data-box{
+    padding: 15px 0;
+}
+
+.data-box h2{
+    font-size: 18px;
+}
+
+.relogio{    
+    max-width: 400px;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    padding: 0px 2%;
+}
+
+.relogio-celula{
+    width: 80%;
+    padding: 10px 0;
+    border-radius: 10px;
+}
+
+.relogio-celula span{
+    font-size: 48px;
+    font-weight: 700;
+}
+
+.relogio-indicador{
+    display: flex;
+    justify-content: space-around;
+}
+
+.relogio-indicador p{
+    font-size: 12px;
+}
+
+.dia{
+    background: linear-gradient(to top, rgb(121, 190, 255), rgb(28, 107, 255));
+}
+
+.dia-celula{    
+    background-color: rgb(236, 236, 7);
+    color: rgb(32, 32, 32);
+    box-shadow: 0 0 3px 1px rgb(129, 129, 0);
+}
+
+.tarde{
+    background: linear-gradient(to top, rgb(252, 199, 100), rgb(214, 139, 0));
+}
+
+.tarde-celula{    
+    background-color: rgb(214, 193, 1);
+    color: rgb(32, 32, 32);
+    box-shadow: 0 0 3px 1px rgb(125, 134, 0);
+}
+
+.noite{
+    background: linear-gradient(to top, #01012e, #060917);
+}
+
+.noite-celula{    
+    background-color: #01030E;    
+    color: white;
+    box-shadow: 0 0 3px 1px #111177;
+}
+
+.msg{
+    font-size: 28px;
+    font-weight: bold;
+    margin-top: 15px;
+}
+
+.msg-dia, .msg-tarde, .msg-dia a, .msg-tarde a{    
+    color: rgb(32, 32, 32) !important; 
+}
+
+.msg-noite{    
+    color: white;
+}
+
+footer{
+    padding: 20px 2%;
+}
+
+footer .container{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.link-rodape{
+    width: 100%;
+}
+
+.nav-rodape{
+    display: flex;
+    justify-content: center;
+}
+
+.nav-rodape ul{
+    list-style: none;
+    display: flex;
+    justify-content: space-around;
+    max-width: 200px;
+    width: 100%;
+}
+
+.nav-rodape a, .creditos a{
+    text-decoration: none;
+    color: white;
+    font-weight: 700;
+    transition: .5s;
+}
+
+.nav-rodape a:hover, .creditos a:hover, .logo:hover{
+    opacity: .7;
+}
+
+footer .creditos{
+    color: white;
+    margin-top: 8px;
+    text-align: center;
+}
